@@ -41,7 +41,7 @@ class FirstRoute extends StatelessWidget {
           // Espaçamento
           SizedBox(height: 30.0),
 
-          // Campo de texto para el correo electrónico
+          
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 30.0),
             child: TextField(
@@ -55,7 +55,7 @@ class FirstRoute extends StatelessWidget {
 
           SizedBox(height: 30.0),
 
-          // Campo de texto para la contraseña
+          
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 30.0),
             child: TextField(
@@ -70,7 +70,7 @@ class FirstRoute extends StatelessWidget {
 
           SizedBox(height: 30.0),
 
-          // Botón de inicio de sesión
+          
           ElevatedButton(
             onPressed: () {
               Navigator.pushNamed(context, '/second');
@@ -78,11 +78,10 @@ class FirstRoute extends StatelessWidget {
             child: Text('ENTRAR'),
           ),
 
-          // Espaciador
+          
           SizedBox(height: 30.0),
 
-          // Botón para otra acción
-          // ... (Agregar botones u otras acciones según sea necesario)
+          
         ],
       ),
     );
